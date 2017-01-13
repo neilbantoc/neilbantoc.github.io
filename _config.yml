@@ -1,19 +1,22 @@
 # Site settings
-title: Starving Artist Jekyll Theme
-email: ctarwater@chrisanthropic.com
-author: Chrisanthropic
+title: Neil bantoc
+email: neilbantoc@gmail.com
+author: nbantoc
 
-keywords: jekyll, jekyll theme, portfolio theme, artist theme
-description: Witty description here.
+keywords: android, ux
+description: Android enthusiast since Froyo. UX Engineer in the making.
 
 # Only use this if you are serving your site via Github Pages
-github:
-  url: "https://chrisanthropic.github.io/starving-artist-jekyll-theme"
+# github:
+#   url: "https://neilbantoc.github.io"
 
-header: images/logo.png
+github:
+  url: "http://localhost:4000"
+
+header: images/logo-white.png
 
 # Formspree contact Form
-contact_form: "https://formspree.io/ctarwater@chrisanthropic.com"
+# contact_form: ""
 
 
 # Exclude our ruby stuff
@@ -22,8 +25,6 @@ exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile,
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
 
 theme: starving-artist-jekyll-theme
   
@@ -51,13 +52,13 @@ google_universal_analytics:
 google_universal_analytics_cookiedomain: auto
 
 # Facebook Opengraph
-facebook_user:
-facebook_app_id:                                #enter your App ID
-facebook_locale: en_US
-facebook_page:                                  #the URL of your Facebook Page
-facebook_image: images/author.jpg                      #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+# facebook_user:
+# facebook_app_id:                                #enter your App ID
+# facebook_locale: en_US
+# facebook_page:                                  #the URL of your Facebook Page
+# facebook_image: images/author.jpg                      #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Twitter Cards
-twitter_user: 
-twitter_card: true
-twitter_image: images/author.jpg                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+# twitter_user: 
+# twitter_card: true
+# twitter_image: images/author.jpg                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
