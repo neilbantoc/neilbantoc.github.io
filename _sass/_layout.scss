@@ -126,7 +126,7 @@ ul > .header-nav > a:visited {
 
 .post-meta {
     font-size: $small-font-size;
-    color: darken($complimentary-color, 35%);
+    color: lighten($complimentary-color, 50%);
     margin-bottom: -1rem;
 }
 
