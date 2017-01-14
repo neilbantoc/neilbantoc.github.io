@@ -107,8 +107,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: darken($body-bg, 25%);
-    border-left: 4px solid lighten($complimentary-color, 35%);
+    color: $blockquote-color;
+    border-left: 4px solid lighten($primary-color, 35%);
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
