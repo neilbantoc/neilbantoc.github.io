@@ -7,11 +7,11 @@ keywords: android, ux
 description: Android enthusiast since Froyo. UX Engineer in the making.
 
 # Only use this if you are serving your site via Github Pages
-# github:
-#   url: "https://neilbantoc.github.io"
-
 github:
-  url: "http://localhost:4000"
+  url: "https://neilbantoc.github.io"
+
+# github:
+#   url: "http://localhost:4000"
 
 header: images/logo-white.png
 
