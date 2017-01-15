@@ -80,13 +80,15 @@ Generating Expert Feedback is Laborious: Time spent reviewing presentations is i
 ### Step 2: Service Refinement and Prototyping
 Positive aspects from each service conceptTaking this new information into account, we refined our final service idea to incorporate the positive aspects from each initial service concept. The most significant aspect of the service that we changed was how we would generate and deliver feedback.
 
-Automatic Feedback System
 Automated feedback requires the least effort to generate and creates the most basic but useful form of feedback that aims on improving the student’s vocal qualities and body language.
 Peer feedback involves having the audience answer a short and simple survey that helps the presenter get an idea on how well he did with his presentation.
-Highlight: I was in charge of designing the survey for the user enactments
-Instead of asking an open ended question that might possibly take a while to write out, the survey asked the audience to check all of the feelings that they would associate with the presenter’s delivery.The second question aims to give the presenter an idea of how effective he was with getting his main points across.The last question allowed the audience to bring up points that they would like the presenter to expand more on.
+
+> Highlight: I was in charge of designing the survey for the user enactments
+
+Instead of asking an open ended question that might possibly take a while to write out, the survey asked the audience to check all of the feelings that they would associate with the presenter’s delivery. The second question aims to give the presenter an idea of how effective he was with getting his main points across. The last question allowed the audience to bring up points that they would like the presenter to expand more on.
 
 Expert feedback would also be an option for students who are still not satisfied with receiving the first two forms of feedback.
+
 To address the problem of time and incentive, we decided to introduce two touch points for our service: a VR practice room who’s primary purpose is to serve as an on-demand venue for receiving  automated feedback and an in-class component meant to be used by professors as a supplement for their existing course presentations.
 
 ### Step 3: User Enactments

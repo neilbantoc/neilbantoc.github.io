@@ -10,9 +10,6 @@ description: Android enthusiast since Froyo. UX Engineer in the making.
 github:
   url: "https://neilbantoc.github.io"
 
-# github:
-#   url: "http://localhost:4000"
-
 header: images/logo-white.png
 
 # Formspree contact Form
@@ -25,8 +22,6 @@ exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile,
 
 # Build settings
 markdown: kramdown
-
-theme: starving-artist-jekyll-theme
   
 # Plugins
 gems:
