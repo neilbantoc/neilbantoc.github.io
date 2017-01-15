@@ -8,5 +8,11 @@
 #     - subtitle: "sidebar"
 #       subhref: "/documentation/sidebar/"
 
+- title: "resume"
+  href: "/resume/"
+
 - title: "blog"
   href: "/blog/"
+
+- title: "inspiration"
+  href: "/inspiration/"
