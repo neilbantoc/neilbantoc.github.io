@@ -31,7 +31,7 @@ Good communication skills are important to have for any student. From growing yo
 	<iframe src="https://player.vimeo.com/video/194274155" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-
+<br />
 
 Our proposed solution, Echo, uses a combination of virtual reality, speech recognition, and computer vision, to track voice quality and body language while a student conducts to a virtual (through the Echo Chamber practice room) or a live, in-class audience. By providing students with metrics on the quality of their presentation, we hope to make more students aware of these small but important aspects of of their speech that can also serve as a way for them to track their improvement over time.
 
