@@ -2,6 +2,57 @@
 ---
 @import "starving-artist";
 
+$body-font-family: "Source Sans Pro";
+$header-font-family: "Signika";
+
+// HTML OVERRIDES
+
+body {
+	font-family: $body-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $header-font-family;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+strong {
+	font-family: $header-font-family;
+}
+
+blockquote p {
+	font-size: 1.25em;
+}
+
+
+// THEME OVERRIDES
+
+.post-title {
+	font-size: 3em;
+}
+
+.roll article p{
+	font-size: 1em;
+}
+
+
+// CUSTOM CLASSES
+
 .embed-container {
 	position: relative;
 	padding-bottom: 56.25%;
@@ -16,22 +67,4 @@
 	left: 0;
 	width: 100%;
 	height: 100%; 
-	margin-bottom: 1em;
-	margin-top: 1em;
-}
-
-h1 {
-	font-size: 3em;
-}
-
-h2 {
-	font-size: 2.25em;
-}
-
-h3 {
-	font-size: 1.75em;
-}
-
-p {
-	font-size: 1.5em;
 }

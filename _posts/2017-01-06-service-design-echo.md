@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Echo: A Service for Perfecting Verbal Communication for Students at Carnegie Mellon University"
+categories: service-design, ux-research, ux, portfolio-piece
 ---
 
 > **Team Size:** 6 people <br/>
@@ -10,7 +11,9 @@ title:  "Echo: A Service for Perfecting Verbal Communication for Students at Car
 This was a final requirement for Service Design, an elective I took when I was completing my Master’s degree in Human-Computer Interaction at Carnegie Mellon University
 
 ## Overview
+
 ### Problem
+
 Good communication skills are important to have for any student. From growing your professional network, to sharing your past work during interviews, to collaborating with others in a team, getting your ideas across to other people is crucial to any workplace. For engineering students in particular, communication skills are brushed off as not important and as a result are often underdeveloped. Our goal was to create a service that enables students to practice and improve their communication skills.
 
 ### Process 
@@ -27,6 +30,8 @@ Good communication skills are important to have for any student. From growing yo
 <div class="embed-container">
 	<iframe src="https://player.vimeo.com/video/194274155" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+
+
 
 Our proposed solution, Echo, uses a combination of virtual reality, speech recognition, and computer vision, to track voice quality and body language while a student conducts to a virtual (through the Echo Chamber practice room) or a live, in-class audience. By providing students with metrics on the quality of their presentation, we hope to make more students aware of these small but important aspects of of their speech that can also serve as a way for them to track their improvement over time.
 
