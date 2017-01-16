@@ -16,7 +16,7 @@ $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size: 1.0em;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
-$blockquote-color: darken($body-bg, 40%);
+$blockquote-color: lighten($body-bg, 45%);
 
 // Header Settings
 $header-color: $primary-color;
