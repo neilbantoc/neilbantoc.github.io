@@ -98,6 +98,7 @@ Using Wizard of Oz testing, we gathered a small group of students and had them p
 * **Perspective.** Students needed some perspective about what success looks like. Although many could recognize a good presentation, students often have trouble understanding what exactly makes it good. Echo helps users parse and understand the factors that manage effective communication with an audience.
 
 * **Layers.** Students appreciated the “layered” nature of evaluation, especially the meticulous reports that allow them to quantify their performance and track it over longer periods of time as well as minute-by-minute. Additionally, Echo empowers students to draw upon two types of support: peer feedback that captures a real audience’s response and expert feedback for communication strategy and guidance.
+
 * **Speed.** Students also appreciated the automated nature of the service, which allowed them to identify and correct their behavior in real-time. Instant feedback promotes the development of good habits, enabling students to recognize patterns in their problem areas and nip them in the bud.
 
 
