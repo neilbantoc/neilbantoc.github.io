@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Echo: A Service for Perfecting Verbal Communication for Students at Carnegie Mellon University"
+thumbnail: /images/posts/main/echo/automatic-feedback.png
 categories: service-design, ux-research, ux, portfolio-piece
 ---
 
@@ -17,13 +18,45 @@ This was a final requirement for Service Design, an elective I took when I was c
 Good communication skills are important to have for any student. From growing your professional network, to sharing your past work during interviews, to collaborating with others in a team, getting your ideas across to other people is crucial to any workplace. For engineering students in particular, communication skills are brushed off as not important and as a result are often underdeveloped. Our goal was to create a service that enables students to practice and improve their communication skills.
 
 ### Process 
-**Collect.** Through literature review, interviewing, and competitor analysis, we gathered in-depth information on how well students were using their communication skills as well as what opportunities for improvement are available to them.
 
-**Understand.** Using models such as customer journey maps and stakeholder maps, we aimed to get a better understanding of the current situation. We focused on identifying pain points that each of our stakeholders have as well as how each stakeholder can directly and indirectly affect other stakeholders.
+<div class="row">	
+	<div class="medium-3 small-12 columns">
+		<p><strong>Collect</strong></p>
+		<ul style="list-style: none;">
+			<li><p>Literature Review</p></li>
+			<li><p>Interviews</p></li>
+			<li><p>Competitive Analysis</p></li>
+		</ul>
+	</div>
 
-**Ideate.** With a clear grasp of the current situation, we used personas and scenarios, to create potential communication training services that solve a combination of the different pain points we have discovered.
+	<div class="medium-3 small-12 columns">
+		<p><strong>Understand</strong></p>
+		<ul style="list-style: none;">
+			<li><p>Customer Journey Map</p></li>
+			<li><p>Stakeholder Map</p></li>
+		</ul>
+	</div>
 
-**Test.** To validate our design ideas, we went through a two-stage needs validation process that involves doing a low-fidelity speed dating session for initial feedback followed by a higher-fidelity user enactments session for testing our prototypes.
+	<div class="medium-3 small-12 columns">
+		<p><strong>Ideate</strong></p>
+		<ul style="list-style: none;">
+			<li><p>Personas</p></li>
+			<li><p>Scenarios</p></li>
+		</ul>
+	</div>
+
+	<div class="medium-3 small-12 columns">
+		<p><strong>Test</strong></p>
+		<ul style="list-style: none;">
+			<li><p>Speed Dating</p></li>
+			<li><p>User Enactments</p></li>
+		</ul>
+	</div>
+</div>
+
+
+We first gathered in-depth information on how well students were using their communication skills as well as what opportunities for improvement are available to them. Using our models, we focused on identifying pain points that each of our stakeholders have as well as how each stakeholder can directly and indirectly affect other stakeholders. After creating potential communication training services that solve a combination of the different pain points we have discovered, we ran it through a two-stage needs validation process that involves doing a low-fidelity speed dating session for initial feedback followed by a higher-fidelity user enactments session for testing our prototypes.
+
 
 ### Solution
 
@@ -83,7 +116,14 @@ Generating Expert Feedback is Laborious: Time spent reviewing presentations is i
 * **Quality of Peer Feedback:** Peers of engineering students are more than likely to be engineering students themselves and would be on the same level when it comes to communication skills. 
 
 ### Step 2: Service Refinement and Prototyping
-Positive aspects from each service conceptTaking this new information into account, we refined our final service idea to incorporate the positive aspects from each initial service concept. The most significant aspect of the service that we changed was how we would generate and deliver feedback.
+
+Taking this new information into account, we refined our final service idea to incorporate the positive aspects from each initial service concept. The most significant aspect of the service that we changed was how we would generate and deliver feedback.
+
+<div class="wraptainer">
+
+<img class="center" src="{{site.url}}{{site.assets-folder}}echo/automatic-feedback.png" alt="Automatic Feedback System">
+
+</div>
 
 Automated feedback requires the least effort to generate and creates the most basic but useful form of feedback that aims on improving the student’s vocal qualities and body language.
 Peer feedback involves having the audience answer a short and simple survey that helps the presenter get an idea on how well he did with his presentation.

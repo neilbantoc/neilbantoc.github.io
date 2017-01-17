@@ -7,7 +7,7 @@
 	
 	{% for nav in site.data.horiznav %}
 	  {% if nav.subcategories != null %}
-	    <li class="header-nav dropdown">
+	    <li class="header-nav dropdown medium-9">
 	      <a href="{{ site.github.url }}{{ nav.url }}">{{ nav.title }}</a>
 		<ul>
 		  {% for subcategory in nav.subcategories %}
@@ -16,7 +16,7 @@
 		</ul>
 	    </li>
 	{% elsif nav.external-subcategories != null %}
-	    <li class="header-nav dropdown">
+	    <li class="header-nav dropdown medium-9">
 	      <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
 		<ul>
 		  {% for subcategory in nav.external-subcategories %}
@@ -36,7 +36,7 @@
 	{% endfor %}
       </ul>
 
-      <ul class="columns medium-4 right primary-nav flex">
+      <ul class="columns medium-3 right primary-nav flex">
 	{% for socials in site.data.horizsocials %}
 	  <li class="right"><a href="{{ socials.href }}"><span class="icon-{{ socials.title }} socials"></span></a></li>
 	{% endfor %}

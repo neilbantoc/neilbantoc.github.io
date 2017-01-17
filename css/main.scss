@@ -2,8 +2,8 @@
 ---
 @import "starving-artist";
 
-$body-font-family: "Open Sans";
-$header-font-family: "Signika";
+$body-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial;
+$header-font-family: "Signika", "Helvetica Neue", Helvetica, Roboto, Arial;
 
 // HTML OVERRIDES
 
@@ -52,6 +52,15 @@ blockquote p {
 
 
 // CUSTOM CLASSES
+
+.post-thumb {
+	padding: 1em;
+}
+
+.post-image {
+	display: block;
+  	margin: 0 auto;
+}
 
 .embed-container {
 	position: relative;

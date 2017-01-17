@@ -14,6 +14,8 @@
   {%else%}
     <meta name="keywords" content="{{ site.keywords }}">
   {% endif %}
+
+  {% include frameworks.html %}
     
   <link href="{{ site.github.url }}/css/main.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link rel="canonical" href="{{ site.github.url }}{{ page.url }}">
@@ -22,5 +24,6 @@
   
   {% include metadata.html %}
   {% include google_analytics.html %} 
-  {% include fonts.html %} 
+  {% include fonts.html %}
+
 </head>

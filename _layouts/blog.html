@@ -4,22 +4,32 @@ layout: default
 <div class="small-12 columns wraptainer">
 {% for post in site.posts %}
 <div class="roll page-content">
-        <header class="post-header">
+        <header>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h2>
                     <a class="post-link" href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a>
                 </h2>
         </header>
-        <article class="post-exerpt">
-        {% if post.thumbnail %}
-            <a href="{{ site.url }}{{ post.url }}">
-                <figure>
-                    <img src="{{ site.github.url }}/{{ post.thumbnail }}" class="thumb" width="150px" height="150px" />
-                </figure>
-            </a>
+        <div class="row">
+        {% if post.thumbnail %} 
+            <div class="small-12 medium-3">
+                <a href="{{ site.url }}{{ post.url }}">
+                    <figure class="post-thumb">
+                        <img src="{{ site.github.url }}/{{ post.thumbnail }}" class="small-12"/>
+                    </figure>
+                </a>
+
+                <div class="hide-on-medium" width="1em" height="1em"> </div>
+            </div>
+
+            <div class="small-12 medium-9">
+        {% else %}
+            <div>
         {% endif %}
-                <p>{{ post.excerpt }}  <a href="{{ site.github.url }}/{{ post.url }}">Read More</a></p>
-        </article>
+                <article>
+                    <p>{{ post.excerpt }}  <a href="{{ site.github.url }}/{{ post.url }}">Read More</a></p>
+                </article>
+            </div>
 </div>
 {% endfor %}
 </div>

@@ -12,6 +12,8 @@ github:
 
 header: images/logo-black.png
 
+assets-folder: /images/posts/main/
+
 # Formspree contact Form
 # contact_form: ""
 
