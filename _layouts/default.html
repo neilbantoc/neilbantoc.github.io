@@ -6,13 +6,13 @@ layout: compress
   {% include head.html %}
   <body>
     {% if page.topbar == true  %}
-        <nav class="navbar">
+        <div class="navbar">
             {% include horiznav.html %}
-        </nav>
+        </div>
     {% else %}
-        <nav class="hide-for-large navbar">
+        <div class="hide-for-large navbar">
             {% include horiznav.html %}
-        </nav>
+        </div>
     {% endif %}
     <main class="wrap">
       {% include header.html %}
@@ -25,5 +25,11 @@ layout: compress
         </aside>
       {% endif %}
     </main>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.materialboxed').materialbox();
+      });
+    </script>
+    {% include frameworks-js.html %}
   </body>
 </html>

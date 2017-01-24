@@ -2,6 +2,12 @@
 ---
 @import "starving-artist";
 
+// RESET
+
+.row {
+		margin-bottom: 0px;
+}
+
 $body-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial;
 $header-font-family: "Signika", "Helvetica Neue", Helvetica, Roboto, Arial;
 
@@ -57,19 +63,27 @@ blockquote p {
 	padding: 1em;
 }
 
-.post-image {
-	display: block;
-  	margin: 0 auto;
+.post-image-caption {
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+	color: lighten($body-font-color, 10%);
+}
+
+.post-image-gallery{
+	overflow: hidden;
 }
 
 .embed-container {
 	position: relative;
-	padding-bottom: 56.25%;
 	height: 0;
 	overflow: hidden;
 	max-width: 100%;
 	height: auto; 
 }
+
 .embed-container iframe, .embed-container object, .embed-container embed {
 	position: absolute;
 	top: 0;
