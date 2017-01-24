@@ -60,10 +60,10 @@ We first gathered in-depth information on how well students were using their com
 
 ### Solution
 
-<div class="embed-container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/x2sHd2_BUIg" frameborder="0" allowfullscreen></iframe>
+<br />
+<div class="center small-12">
+	<iframe src="https://www.youtube.com/embed/x2sHd2_BUIg" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
-
 <br />
 
 Our proposed solution, Echo, uses a combination of virtual reality, speech recognition, and computer vision, to track voice quality and body language while a student conducts to a virtual (through the Echo Chamber practice room) or a live, in-class audience. By providing students with metrics on the quality of their presentation, we hope to make more students aware of these small but important aspects of of their speech that can also serve as a way for them to track their improvement over time.
@@ -90,7 +90,7 @@ Apart from these findings, we also created a customer journey map and a stakehol
 ## Phase 2: Brainstorming
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns" src="{{site.url}}{{site.assets-folder}}echo/facebook-live.jpg" alt="Automatic Feedback System">
+	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/facebook-live.jpg" alt="Automatic Feedback System">
 </div> <br />
 
 > **Highlight:** An idea that I pitched in was a service similar to Facebook Live where students can use the power of social media as an on-demand feedback system. Students can give an impromptu speech and viewers can give real time presentation-related feedback such as “Speak louder” or “Talk Faster” encapsulated as feelings-like emojis.
@@ -127,20 +127,20 @@ Utilizing a quick, low-fidelity needs validation technique, we were able to gath
 Taking this new information into account, we refined our final service idea to incorporate the positive aspects from each initial service concept. The most significant aspect of the service that we changed was how we would generate and deliver feedback.
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns" src="{{site.url}}{{site.assets-folder}}echo/automatic-feedback.png" alt="Automatic Feedback System">
+	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/automatic-feedback.png" alt="Automatic Feedback System">
 </div> <br />
 
 Automated feedback requires the least effort to generate and creates the most basic but useful form of feedback that aims on improving the student’s vocal qualities and body language.
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns" src="{{site.url}}{{site.assets-folder}}echo/other-feedback.png" alt="Peer Feedback">
+	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/other-feedback.png" alt="Peer Feedback">
 </div> <br />
 
 Peer feedback involves having the audience answer a short and simple survey that helps the presenter get an idea on how well he did with his presentation.
 
 > Highlight: I was in charge of designing the survey for the user enactments
 
-<div class="wraptainer post-image-horizontal small-6">
+<div class="wraptainer post-image-horizontal">
 	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/peer-feedback-survey.png" alt="Survey">
 </div> <br />
 
@@ -149,7 +149,7 @@ Peer feedback involves having the audience answer a short and simple survey that
 Expert feedback would also be an option for students who are still not satisfied with receiving the first two forms of feedback.
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns materialboxed" src="{{site.url}}{{site.assets-folder}}echo/touchpoints.png" alt="Service Touchpoints">
+	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/touchpoints.png" alt="Service Touchpoints">
 </div> <br />
 
 To address the problem of time and incentive, we decided to introduce two touch points for our service: a VR practice room who’s primary purpose is to serve as an on-demand venue for receiving  automated feedback and an in-class component meant to be used by professors as a supplement for their existing course presentations.
@@ -191,7 +191,7 @@ Using Wizard of Oz testing, we gathered a small group of students and had them p
 To solidify our service proposal, we conducted research on the technical feasibility of our feedback system.
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns" src="{{site.url}}{{site.assets-folder}}echo/ummo-app.png" alt="Ummo app">
+	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/ummo-app.png" alt="Ummo app">
 </div> <br />
 
 Commercial products such as Ummo and LumoLift demonstrate how speech recognition and posture tracking exist. Additionally, software development toolkits like CMUSphinx for speech recognition and KinectSDK for body tracking can also be utilized to create the feedback system from scratch.
