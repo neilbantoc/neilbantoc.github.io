@@ -142,7 +142,7 @@ Peer feedback involves having the audience answer a short and simple survey that
 
 <div class="wraptainer post-image-horizontal">
 	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/peer-feedback-survey.png" alt="Survey">
-</div> <br />
+</div>
 
 <p class="post-image-caption">Instead of asking an open ended question that might possibly take a while to write out, the survey asked the audience to check all of the feelings that they would associate with the presenter’s delivery. The second question aims to give the presenter an idea of how effective he was with getting his main points across. The last question allowed the audience to bring up points that they would like the presenter to expand more on.</p>
 
@@ -184,9 +184,9 @@ Using Wizard of Oz testing, we gathered a small group of students and had them p
 
 <div class="wraptainer post-image-horizontal">
 	<a href="{{site.url}}{{site.assets-folder}}echo/blueprint.png"><img class="center" src="{{site.url}}{{site.assets-folder}}echo/blueprint.png" alt="Service Blueprint"></a>
-</div> <br />
+</div>
 
-<p class="caption"> Click on image to see full version </p>
+<p class="post-image-caption"> Click on image to see full version </p>
 
 To solidify our service proposal, we conducted research on the technical feasibility of our feedback system.
 
