@@ -1,6 +1,6 @@
 - title: "portfolio"
   href: "/portfolio/"
-  
+
 # - title: "documentation"
 #   subcategories:
 #     - subtitle: "installation"
@@ -8,8 +8,8 @@
 #     - subtitle: "sidebar"
 #       subhref: "/documentation/sidebar/"
 
-- title: "resume"
-  href: "/resume/"
+- title: "Toolbox"
+  href: "/toolbox/"
 
 - title: "blog"
   href: "/blog/"
@@ -17,3 +17,5 @@
 - title: "inspiration"
   href: "/inspiration/"
 
+- title: "resume"
+  href: "/resume/"

@@ -11,11 +11,15 @@ categories: service-design, ux-research, ux, portfolio-piece
 **Tools:** Interviews, Personas, Scenarios, Service Blueprint, Storyboarding, Speed Dating, User Enactments, Survey Design, Wizard of Oz Testing <br/> <br/>
 This was a final requirement for Service Design, an elective I took when I was completing my Master’s degree in Human-Computer Interaction at Carnegie Mellon University
 
+<br />
+
 ## Overview
 
 ### Problem
 
 Good communication skills are important to have for any student. From growing your professional network, to sharing your past work during interviews, to collaborating with others in a team, getting your ideas across to other people is crucial to any workplace. For engineering students in particular, communication skills are brushed off as not important and as a result are often underdeveloped. Our goal was to create a service that enables students to practice and improve their communication skills.
+
+<br />
 
 ### Process
 
@@ -57,6 +61,7 @@ Good communication skills are important to have for any student. From growing yo
 
 We first gathered in-depth information on how well students were using their communication skills as well as what opportunities for improvement are available to them. Using our models, we focused on identifying pain points that each of our stakeholders have as well as how each stakeholder can directly and indirectly affect other stakeholders. After creating potential communication training services that solve a combination of the different pain points we have discovered, we ran it through a two-stage needs validation process that involves doing a low-fidelity speed dating session for initial feedback followed by a higher-fidelity user enactments session for testing our prototypes.
 
+<br />
 
 ### Solution
 
@@ -68,8 +73,11 @@ We first gathered in-depth information on how well students were using their com
 
 Our proposed solution, Echo, uses a combination of virtual reality, speech recognition, and computer vision, to track voice quality and body language while a student conducts to a virtual (through the Echo Chamber practice room) or a live, in-class audience. By providing students with metrics on the quality of their presentation, we hope to make more students aware of these small but important aspects of of their speech that can also serve as a way for them to track their improvement over time.
 
+<br />
+
 ---
 
+<br />
 ## Phase 1: Research
 >**Highlight:** My contributions include interviewing an Alumna from CMU and gathering data for a competitive analysis comparing resources available at Carnegie Mellon to those from other universities
 
@@ -85,7 +93,11 @@ During our research phase, we made some significant discoveries:
 
 Apart from these findings, we also created a customer journey map and a stakeholder map that we can use as a physical reference in the future:
 
+<br />
+
 ---
+
+<br />
 
 ## Phase 2: Brainstorming
 
@@ -106,7 +118,11 @@ For our brainstorming session, We were able to generate a total of eight service
 
 * **Automatic Feedback System.** Instead of relying on humans to generate feedback, we explored utilizing emerging technologies such as speech recognition, machine learning and computer vision to gauge a presentation and generate usable feedback.
 
+<br />
+
 ---
+
+<br />
 
 ## Phase 3: Needs Validation and Prototyping
 > **Highlight:** For the speed dating session, I conducted a speed dating session with the head of CMU’s Global Communication Center.

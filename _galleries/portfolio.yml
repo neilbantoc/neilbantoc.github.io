@@ -7,4 +7,10 @@ arts:
   title: "Echo"
   description: "Echo Service Design"
   link: "blog/2017/service-design-echo"
+
+- image: "images/galleries/portfolio/echo/echo-logo.png"
+  order: "1"
+  title: "Echo"
+  description: "Echo Service Design"
+  link: "blog/2017/service-design-echo"
 ---
