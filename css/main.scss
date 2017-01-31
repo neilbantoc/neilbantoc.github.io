@@ -2,13 +2,18 @@
 ---
 @import "starving-artist";
 
+$image-width-large: 100%;
+$image-width-medium: 480px;
+$image-width-small: 320px;
+$image-width-thumbnail: 240px;
+
 // RESET
 
 .row {
 		margin-bottom: 0px;
 }
 
-$body-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial;
+$body-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial;
 $header-font-family: "Signika", "Helvetica Neue", Helvetica, Roboto, Arial;
 
 // HTML OVERRIDES
@@ -17,8 +22,13 @@ body {
 	font-family: $body-font-family;
 }
 
+a {
+	color: #72A1E5;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $header-font-family;
+	font-weight: 900;
 }
 
 h1 {
@@ -64,14 +74,30 @@ blockquote p {
 }
 
 .post-image-caption {
-	margin-left: 2em;
-	margin-right: 2em;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 2em;
+	max-width: 480px;
 	text-align: center;
 	font-size: 0.9em;
 	font-style: italic;
 	color: lighten($body-font-color, 10%);
+}
+
+.post-image-small {
+	width: $image-width-small;
+	height: auto;
+}
+
+.post-image-medium {
+	width: $image-width-medium;
+	height: auto;
+}
+
+.post-image-large {
+	width: $image-width-large;
+	height: auto;
 }
 
 .post-image-gallery{

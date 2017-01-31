@@ -58,8 +58,9 @@ Good communication skills are important to have for any student. From growing yo
 	</div>
 </div>
 
+<br />
 
-We first gathered in-depth information on how well students were using their communication skills as well as what opportunities for improvement are available to them. Using our models, we focused on identifying pain points that each of our stakeholders have as well as how each stakeholder can directly and indirectly affect other stakeholders. After creating potential communication training services that solve a combination of the different pain points we have discovered, we ran it through a two-stage needs validation process that involves doing a low-fidelity speed dating session for initial feedback followed by a higher-fidelity user enactments session for testing our prototypes.
+We first gathered in-depth information on how well students were using their communication skills in and out of class as well as what opportunities and resources for improvement are available to them. Using our models, we focused on identifying pain points that each of our stakeholders have as well as how each stakeholder can directly and indirectly affect other stakeholders. After creating potential communication training services that solve a combination of the different pain points we have discovered, we ran it through a two-stage needs validation process that involves doing a low-fidelity speed dating session for initial feedback followed by a higher-fidelity user enactments session for testing our prototypes.
 
 <br />
 
@@ -92,6 +93,14 @@ During our research phase, we made some significant discoveries:
 * **Time and Incentive:** Since engineering students don’t see communication skills as a priority, they tend to lack the incentive to invest the time needed to improve.
 
 Apart from these findings, we also created a customer journey map and a stakeholder map that we can use as a physical reference in the future:
+
+<div class="wraptainer post-image-horizontal">
+	<img class="center materialboxed post-image-large responsive-img" src="{{site.url}}{{site.assets-folder}}echo/stakeholder-map.png" alt="Stakeholder Map">
+</div> <br />
+
+<div class="wraptainer post-image-horizontal">
+	<img class="center materialboxed post-image-large responsive-img" src="{{site.url}}{{site.assets-folder}}echo/journey-map.png" alt="Stakeholder Map">
+</div> <br />
 
 <br />
 
@@ -127,8 +136,10 @@ For our brainstorming session, We were able to generate a total of eight service
 ## Phase 3: Needs Validation and Prototyping
 > **Highlight:** For the speed dating session, I conducted a speed dating session with the head of CMU’s Global Communication Center.
 
+<br />
+
 ### Step 1: Speed Dating
-Utilizing a quick, low-fidelity needs validation technique, we were able to gather feedback the following feedback for our design concepts:
+Utilizing a quick, low-fidelity needs validation technique, we were able to gather feedback for our design concepts:
 
 * **Practicing on Own Time:** Students can have really busy schedules. Our service should be flexible enough so that students can maximize their free time.
 
@@ -138,18 +149,20 @@ Utilizing a quick, low-fidelity needs validation technique, we were able to gath
 
 * **Peer Feedback Quality:** Peers of engineering students are more than likely to be engineering students themselves and would be on the same level when it comes to communication skills.
 
+<br />
+
 ### Step 2: Service Refinement and Prototyping
 
 Taking this new information into account, we refined our final service idea to incorporate the positive aspects from each initial service concept. The most significant aspect of the service that we changed was how we would generate and deliver feedback.
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/automatic-feedback.png" alt="Automatic Feedback System">
+	<img class="center materialboxed post-image-medium responsive-img" src="{{site.url}}{{site.assets-folder}}echo/automatic-feedback.png" alt="Automatic Feedback System">
 </div> <br />
 
 Automated feedback requires the least effort to generate and creates the most basic but useful form of feedback that aims on improving the student’s vocal qualities and body language.
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/other-feedback.png" alt="Peer Feedback">
+	<img class="center materialboxed post-image-medium responsive-img" src="{{site.url}}{{site.assets-folder}}echo/other-feedback.png" alt="Peer Feedback">
 </div> <br />
 
 Peer feedback involves having the audience answer a short and simple survey that helps the presenter get an idea on how well he did with his presentation.
@@ -157,29 +170,31 @@ Peer feedback involves having the audience answer a short and simple survey that
 > Highlight: I was in charge of designing the survey for the user enactments
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/peer-feedback-survey.png" alt="Survey">
+	<img class="center materialboxed post-image-medium responsive-img" src="{{site.url}}{{site.assets-folder}}echo/peer-feedback-survey.png" alt="Survey">
 </div>
 
-<p class="post-image-caption">Instead of asking an open ended question that might possibly take a while to write out, the survey asked the audience to check all of the feelings that they would associate with the presenter’s delivery. The second question aims to give the presenter an idea of how effective he was with getting his main points across. The last question allowed the audience to bring up points that they would like the presenter to expand more on.</p>
+<p class="post-image-caption center">Instead of asking an open ended question that might possibly take a while to write out, the survey asked the audience to check all of the feelings that they would associate with the presenter’s delivery. The second question aims to give the presenter an idea of how effective he was with getting his main points across. The last question allowed the audience to bring up points that they would like the presenter to expand more on.</p>
 
 Expert feedback would also be an option for students who are still not satisfied with receiving the first two forms of feedback.
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/touchpoints.png" alt="Service Touchpoints">
+	<img class="center materialboxed post-image-large responsive-img" src="{{site.url}}{{site.assets-folder}}echo/touchpoints.png" alt="Service Touchpoints">
 </div> <br />
 
 To address the problem of time and incentive, we decided to introduce two touch points for our service: a VR practice room who’s primary purpose is to serve as an on-demand venue for receiving  automated feedback and an in-class component meant to be used by professors as a supplement for their existing course presentations.
+
+<br />
 
 ### Step 3: User Enactments
 
 <div class="row">
 
 	<div class="wraptainer post-image-horizontal small-6">
-		<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/user-enactment-1.png" alt="Wizard of Oz Testing">
-	</div> <br />
+		<img class="center materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/user-enactment-1.png" alt="Wizard of Oz Testing">
+	</div>
 
 	<div class="wraptainer post-image-horizontal small-6">
-		<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/user-enactment-2.png" alt="Wizard of Oz Testing">
+		<img class="center materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/user-enactment-2.png" alt="Wizard of Oz Testing">
 	</div>
 
 </div> <br />
@@ -192,8 +207,11 @@ Using Wizard of Oz testing, we gathered a small group of students and had them p
 
 * **Speed.** Students also appreciated the automated nature of the service, which allowed them to identify and correct their behavior in real-time. Instant feedback promotes the development of good habits, enabling students to recognize patterns in their problem areas and nip them in the bud.
 
+<br />
 
 ---
+
+<br />
 
 ## Final Service Proposal and Technical Feasibility
 > Highlight: Given my software engineering background, I was in charge of gathering information on just how feasible it is to implement our service.
@@ -210,6 +228,6 @@ To solidify our service proposal, we conducted research on the technical feasibi
 	<img class="center columns materialboxed responsive-img" src="{{site.url}}{{site.assets-folder}}echo/ummo-app.png" alt="Ummo app">
 </div> <br />
 
-Commercial products such as Ummo and LumoLift demonstrate how speech recognition and posture tracking exist. Additionally, software development toolkits like CMUSphinx for speech recognition and KinectSDK for body tracking can also be utilized to create the feedback system from scratch.
+Commercial products such as [Ummo](http://www.ummoapp.com/) and [LumoLift](http://www.lumobodytech.com/) demonstrate how speech recognition and posture tracking exist. Additionally, software development toolkits like [CMUSphinx](cmusphinx.sourceforge.net) for speech recognition and [KinectSDK](https://developer.microsoft.com/en-us/windows/kinect) for body tracking can also be utilized to create the feedback system from scratch.
 
-For complete details on our design process, refer to our final report which can be found here.
+For complete details on our design process, refer to our final report which can be found [here](https://drive.google.com/open?id=1qD62RBHq-LhJKY8xZdTf_EUH6yo50D6eRyzjsU23R3c).

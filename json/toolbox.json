@@ -7,6 +7,13 @@
     "image": ""
   },
   {
+    "title": "Strict Pomodoro",
+    "description": "A chrome plugin that lets me improve my productivity by enforcing a 25/5 min (Pomodoro) workflow where you work distraction-free (blocks distracting websites) for 25 mins followed by 5 mins of break.",
+    "tags": ["productivity", "chrome-extensions"],
+    "link": "https://chrome.google.com/webstore/detail/strict-workflow/cgmnfnmlficgeijcalkgnnkigkefkbhd?hl=en",
+    "image": ""
+  },
+  {
     "title": "Ecosystem Collection",
     "description": "A research exercise where ",
     "tags": ["human-centered-design", "user-research"],
