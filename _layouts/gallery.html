@@ -2,13 +2,13 @@
 layout: default
 ---
 <div class="masonry">
-    <div>  {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
+    {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}
         <div class="masonry-panel">
             <a href="{{site.url}}/{{art.link}}" data-caption-desc="{{ art.description }}">
                 <img src="{{ site.github.url }}/{{ art.image }}" alt="{{ art.title }}"class="zoom">
             </a>
-        </div>{% endfor %} {% endif %} {% endfor %}
-    </div>
+        </div>
+    {% endfor %} {% endif %} {% endfor %}
 </div>
 
 {% for gallery in site.galleries %} {% if gallery.name == page.title %} {% for art in gallery.arts %}

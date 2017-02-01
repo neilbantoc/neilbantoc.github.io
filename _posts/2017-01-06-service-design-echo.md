@@ -9,7 +9,7 @@ categories: service-design, ux-research, ux, portfolio-piece
 **Time Period:** 2 months <br/>
 **Role:** UX Researcher, Technical Researcher <br/>
 **Tools:** Interviews, Personas, Scenarios, Service Blueprint, Storyboarding, Speed Dating, User Enactments, Survey Design, Wizard of Oz Testing <br/> <br/>
-This was a final requirement for Service Design, an elective I took when I was completing my Master’s degree in Human-Computer Interaction at Carnegie Mellon University
+We sought to design an on-campus service that aims to improve the communication skills of students at Carnegie Mellon University. This was a final requirement for Service Design, an elective I took when I was completing my Master’s degree in Human-Computer Interaction at Carnegie Mellon University
 
 <br />
 
@@ -79,6 +79,7 @@ Our proposed solution, Echo, uses a combination of virtual reality, speech recog
 ---
 
 <br />
+
 ## Phase 1: Research
 
 >**Highlight:** My contributions include interviewing an Alumna from CMU and gathering data for a competitive analysis comparing resources available at Carnegie Mellon to those from other universities

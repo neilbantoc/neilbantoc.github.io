@@ -13,7 +13,7 @@ $image-width-thumbnail: 240px;
 		margin-bottom: 0px;
 }
 
-$body-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial;
+$body-font-family: "Source Sans Pro", "Source Sans Pro", Helvetica, Roboto, Arial;
 $header-font-family: "Signika", "Helvetica Neue", Helvetica, Roboto, Arial;
 
 // HTML OVERRIDES
@@ -24,7 +24,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $header-font-family;
-	font-weight: 900;
+	font-weight: bold;
 }
 
 h1 {
@@ -40,11 +40,12 @@ h3 {
 }
 
 p {
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 strong {
 	font-family: $header-font-family;
+	font-weight: 700;
 }
 
 blockquote p {
@@ -53,6 +54,18 @@ blockquote p {
 
 
 // THEME OVERRIDES
+
+.masonry {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 0;
+     -moz-column-gap: 0;
+          column-gap: 0;
+  position: relative;
+}
 
 .post-title {
 	font-size: 3em;
