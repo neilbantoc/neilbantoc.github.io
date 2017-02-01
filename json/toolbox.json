@@ -7,6 +7,13 @@
     "image": ""
   },
   {
+    "title": "Graph Scroll",
+    "description": "A javascript library that allows you to modify an svg using scrolling events as triggers",
+    "tags": ["javascript", "d3", "front-end-development"],
+    "link": "https://github.com/1wheel/graph-scroll",
+    "image": ""
+  },
+  {
     "title": "Strict Pomodoro",
     "description": "A chrome plugin that lets me improve my productivity by enforcing a 25/5 min (Pomodoro) workflow where you work distraction-free (blocks distracting websites) for 25 mins followed by 5 mins of break.",
     "tags": ["productivity", "chrome-extensions"],

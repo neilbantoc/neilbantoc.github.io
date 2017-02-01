@@ -8,8 +8,8 @@
 #     - subtitle: "sidebar"
 #       subhref: "/documentation/sidebar/"
 
-- title: "Toolbox"
-  href: "/toolbox/"
+# - title: "toolbox"
+#   href: "/toolbox/"
 
 - title: "blog"
   href: "/blog/"

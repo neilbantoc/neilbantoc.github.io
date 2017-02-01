@@ -80,6 +80,7 @@ Our proposed solution, Echo, uses a combination of virtual reality, speech recog
 
 <br />
 ## Phase 1: Research
+
 >**Highlight:** My contributions include interviewing an Alumna from CMU and gathering data for a competitive analysis comparing resources available at Carnegie Mellon to those from other universities
 
 During our research phase, we made some significant discoveries:
