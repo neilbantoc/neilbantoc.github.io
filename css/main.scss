@@ -47,6 +47,16 @@ $quote-backdrop-opacity-percent: 80;
 		font-family: "Signika";
 }
 
+@media screen and (max-width: 768px) {
+	#quote-block {
+		font-size: 1em;
+	}
+
+	#quote {
+			font-size: 1em;
+	}
+}
+
 // RESET
 
 .row {
