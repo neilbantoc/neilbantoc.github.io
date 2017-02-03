@@ -17,15 +17,18 @@ $hyperlink-color-visited: #72A1E5;
 	background-size: cover;
 }
 
+$quote-backdrop-opacity: .80;
+$quote-backdrop-opacity-percent: 80;
+
 #quote-backdrop {
 	height: 100%;
 	width: 100%;
 	background-color: #000000;
-	opacity: .85; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
-  filter: alpha(opacity=85); /* IE lt 8 */
-  -ms-filter: "alpha(opacity=85)"; /* IE 8 */
-  -khtml-opacity: .85; /* Safari 1.x */
-  -moz-opacity: .85; /* FF lt 1.5, Netscape */
+	opacity: $quote-backdrop-opacity; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+  filter: alpha(opacity=$quote-backdrop-opacity-percent); /* IE lt 8 */
+  -ms-filter: "alpha(opacity=$quote-backdrop-opacity-percent)"; /* IE 8 */
+  -khtml-opacity: $quote-backdrop-opacity; /* Safari 1.x */
+  -moz-opacity: $quote-backdrop-opacity; /* FF lt 1.5, Netscape */
 }
 
 #quote-block {
@@ -34,17 +37,14 @@ $hyperlink-color-visited: #72A1E5;
 	padding-left: 40px;
 	height: 640px;
 	width: 640px;
-}
-
-#quote-author, #quote-link {
-	text-size: 1.5em;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 #quote {
-		font-size: 2em;
+		font-size: 1.25em;
 		text-align: left;
 		font-family: "Signika";
-		font-weight: bold;
 }
 
 // RESET

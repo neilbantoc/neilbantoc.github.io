@@ -12,7 +12,7 @@ permalink: "/inspiration/"
         <p id="quote"></p>
         <span><span id="quote-author"></span> | <a id="quote-link"></a></span>
         <br/> <br/>
-        <button id="quote-new" class="waves-effect waves-light btn" onclick="changeQuote()">NEW QUOTE</button>
+        <button id="quote-new" class="waves-effect waves-light btn" onclick="changeQuote()">New Quote</button>
     </div>
   </div>
 </div>

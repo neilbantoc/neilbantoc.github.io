@@ -1,26 +1,42 @@
 [
   {
-    "quote":"Ultimately, you need to understand that the power of white space comes from the limits of human attention and memory.",
+    "quote": "Ultimately, you need to understand that the power of white space comes from the limits of human attention and memory.",
     "author": "Jerry Cao, Kamil Zieba, Matt Ellis",
-    "link":"http://www.fastcodesign.com/3046656/why-white-space-is-crucial-to-ux-design",
+    "link": "http://www.fastcodesign.com/3046656/why-white-space-is-crucial-to-ux-design",
     "title": "Why White Space Is Crucial To UX Design",
-    "image":"/images/inspiration/whitespace.png",
-    "context":null
-  },
-  {
-    "quote":"We go out and observe people doing a task and from that we say 'Oh, we have some ideas. Here's what we should perhaps propose to do.' Then you prototype your solution and test it. Quite often, these are wrong at first, but each time we go around the circle we do a better job of making the device until the point that we're making something that really works",
+    "image": "/images/inspiration/whitespace.png",
+    "context": null
+  }, {
+    "quote": "We go out and observe people and from that we say 'Oh, we have some ideas.' Then you prototype your solution and test it. Quite often, these are wrong at first, but each time we go around the circle we do a better job until the point that we're making something that really works",
     "author": "Donald Norman",
-    "link":"https://www.youtube.com/watch?v=yY96hTb8WgI",
+    "link": "https://www.youtube.com/watch?v=yY96hTb8WgI",
     "title": "It's not you. Bad doors are everywhere.",
-    "image":"/images/inspiration/human-centered-design.png",
+    "image": "/images/inspiration/human-centered-design.png",
     "context":null
-  },
-  {
-    "quote":"When I look at something, I should be able to discover what operations I can do. Discoverability, when It's not there... well you don't know how to use something.",
+  }, {
+    "quote": "When I look at something, I should be able to discover what operations I can do. Discoverability, when It's not there... well you don't know how to use something.",
     "author": "Donald Norman",
-    "link":"https://www.youtube.com/watch?v=yY96hTb8WgI",
+    "link": "https://www.youtube.com/watch?v=yY96hTb8WgI",
     "title": "It's not you. Bad doors are everywhere",
-    "image":"/images/inspiration/everyday-things.png",
+    "image": "/images/inspiration/everyday-things.png",
     "context":null
-  }
+  }, {
+    "quote": "Experience is what you get when you didn't get what you wanted. And experience is often the most valuable thing you have to offer.",
+    "author": "Randy Pausch",
+    "link": "https://www.youtube.com/watch?v=ji5_MqicxSo",
+    "title": "The Last Lecture",
+    "image": "/images/inspiration/last-lecture-experience.png"
+  }, {
+    "quote": "When you're screwing up and nobody says anything to you anymore, that means they've given up on you.",
+    "author": "Randy Pausch",
+    "link": "https://youtu.be/ji5_MqicxSo?t=8m13s",
+    "title": "The Last Lecture",
+    "image": "/images/inspiration/randy-pausch.png"
+  }, {
+      "quote": "The brick walls are not there to keep us out – the brick walls are there to give us a chance to show how badly we want something.",
+      "author": "Randy Pausch",
+      "link": "https://youtu.be/ji5_MqicxSo?t=18m15s",
+      "title": "The Last Lecture",
+      "image": "/images/inspiration/brick-wall.png"
+    }
 ]
