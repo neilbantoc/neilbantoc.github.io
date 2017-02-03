@@ -2,15 +2,15 @@
 name: "portfolio"
 arts:
 # Column 1
-- image: "images/galleries/portfolio/echo/echo-logo.png"
+- image: "images/galleries/portfolio/echo-logo.png"
   order: "1"
   title: "Echo"
   description: "Echo Service Design"
   link: "blog/2017/service-design-echo"
 
-- image: "images/galleries/portfolio/echo/echo-logo.png"
-  order: "1"
-  title: "Echo"
-  description: "Echo Service Design"
-  link: "blog/2017/service-design-echo"
+- image: "images/galleries/portfolio/industrial-ecology.png"
+  order: "2"
+  title: "Industrial Ecology"
+  description: "Dow for Industrial Ecology"
+  link: "blog/2017/industrial-ecology"
 ---
