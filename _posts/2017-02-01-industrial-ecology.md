@@ -11,12 +11,6 @@ categories: document-design, portfolio-piece
 
 <br/>
 
-<a href="{{site.url}}/assets/industrial-ecology/industrial-ecology.pdf"><img class="post-image-large" src="{{site.ur.}}/images/posts/main/industrial-ecology/cover.png"/></a>
-
-<p class="post-image-caption">Click on the image to view full pdf document</p>
-
-<br/>
-
 ## Branding
 
 <br/>
@@ -45,4 +39,14 @@ The grid I chose to go with was pretty straightforward: title on the top-right, 
 
 <img class="post-image-large materialboxed responsive-img" src="{{site.ur.}}/images/posts/main/industrial-ecology/shaking-things-up.png"/>
 
-As a final touch, I
+To add variety and break the monotony of the uniform design, I had one of the pages break the body text using an image.
+
+<br/>
+
+## Final Product
+
+Well, here's the final product. I don't have much to say about it, really. Click on the image below to see the whole thing.
+
+<br/> <a href="{{site.url}}/assets/industrial-ecology/industrial-ecology.pdf"><img class="post-image-large" src="{{site.ur.}}/images/posts/main/industrial-ecology/cover.png"/></a>
+
+<p class="post-image-caption">Click on the image to view full pdf document</p>

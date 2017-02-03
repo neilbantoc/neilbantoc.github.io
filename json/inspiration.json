@@ -1,10 +1,26 @@
 [
   {
     "quote":"Ultimately, you need to understand that the power of white space comes from the limits of human attention and memory.",
-    "author": "JERRY CAO, KAMIL ZIEBA, MATT ELLIS",
+    "author": "Jerry Cao, Kamil Zieba, Matt Ellis",
     "link":"http://www.fastcodesign.com/3046656/why-white-space-is-crucial-to-ux-design",
     "title": "Why White Space Is Crucial To UX Design",
-    "context":null,
-    "image":null
+    "image":"/images/inspiration/whitespace.png",
+    "context":null
+  },
+  {
+    "quote":"We go out and observe people doing a task and from that we say 'Oh, we have some ideas. Here's what we should perhaps propose to do.' Then you prototype your solution and test it. Quite often, these are wrong at first, but each time we go around the circle we do a better job of making the device until the point that we're making something that really works",
+    "author": "Donald Norman",
+    "link":"https://www.youtube.com/watch?v=yY96hTb8WgI",
+    "title": "It's not you. Bad doors are everywhere.",
+    "image":"/images/inspiration/human-centered-design.png",
+    "context":null
+  },
+  {
+    "quote":"When I look at something, I should be able to discover what operations I can do. Discoverability, when It's not there... well you don't know how to use something.",
+    "author": "Donald Norman",
+    "link":"https://www.youtube.com/watch?v=yY96hTb8WgI",
+    "title": "It's not you. Bad doors are everywhere",
+    "image":"/images/inspiration/everyday-things.png",
+    "context":null
   }
 ]
