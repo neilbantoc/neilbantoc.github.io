@@ -233,3 +233,6 @@ To solidify our service proposal, we conducted research on the technical feasibi
 Commercial products such as [Ummo](http://www.ummoapp.com/) and [LumoLift](http://www.lumobodytech.com/) demonstrate how speech recognition and posture tracking exist. Additionally, software development toolkits like [CMUSphinx](cmusphinx.sourceforge.net) for speech recognition and [KinectSDK](https://developer.microsoft.com/en-us/windows/kinect) for body tracking can also be utilized to create the feedback system from scratch.
 
 For complete details on our design process, refer to our final report which can be found [here](https://drive.google.com/open?id=1qD62RBHq-LhJKY8xZdTf_EUH6yo50D6eRyzjsU23R3c).
+
+{% include jquery.html %}
+{% include materialize.html %}

@@ -1,4 +1,7 @@
 a {
-	/*color: #72A1E5;*/
 	color: #EA6984;
+}
+
+a:visited {
+	color: #72A1E5;
 }
