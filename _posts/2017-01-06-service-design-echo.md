@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Echo: A Service for Perfecting Verbal Communication for Students at Carnegie Mellon University"
-thumbnail: /images/posts/main/echo/automatic-feedback.png
+thumbnail: /images/posts/thumbs/echo.png
 categories: service-design, ux-research, ux, portfolio-piece
 ---
 
@@ -66,7 +66,6 @@ We first gathered in-depth information on how well students were using their com
 
 ### Solution
 
-<br />
 <div class="center small-12">
 	<iframe src="https://www.youtube.com/embed/x2sHd2_BUIg" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>

@@ -2,14 +2,20 @@
 name: "portfolio"
 arts:
 # Column 1
-- image: "images/galleries/portfolio/echo-logo.png"
+- image: "images/galleries/portfolio/rise-and-smile.gif"
   order: "1"
+  title: "Rise and Smile: Face Detection Powered Alarm Clock"
+  description: "Alarm Clock for Android powered by face detection"
+  link: "blog/2017/rise-and-smile-face-detection-alarm-clock"
+
+- image: "images/galleries/portfolio/echo-logo.png"
+  order: "2"
   title: "Echo"
   description: "Echo Service Design"
   link: "blog/2017/service-design-echo"
 
 - image: "images/galleries/portfolio/industrial-ecology.png"
-  order: "2"
+  order: "3"
   title: "Industrial Ecology"
   description: "Dow for Industrial Ecology"
   link: "blog/2017/industrial-ecology"
