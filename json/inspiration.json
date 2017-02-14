@@ -17,7 +17,7 @@
     "quote": "When I look at something, I should be able to discover what operations I can do. Discoverability, when It's not there... well you don't know how to use something.",
     "author": "Donald Norman",
     "link": "https://www.youtube.com/watch?v=yY96hTb8WgI",
-    "title": "It's not you. Bad doors are everywhere",
+    "title": "It's not you. Bad doors are everywhere.",
     "image": "/images/inspiration/everyday-things.png",
     "context":null
   }, {
@@ -38,5 +38,11 @@
       "link": "https://youtu.be/ji5_MqicxSo?t=18m15s",
       "title": "The Last Lecture",
       "image": "/images/inspiration/brick-wall.png"
-    }
+  }, {
+      "quote": "In an information-rich world, the wealth of information means a dearth of something else: a scarcity of whatever it is that information consumes. What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention and a need to allocate that attention efficiently among the overabundance of information sources that might consume it",
+      "author": "Herbert Simon",
+      "link": "http://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=33748",
+      "title": "The Scarcity of Attention",
+      "image": "https://cdn.pixabay.com/photo/2014/08/11/17/22/rabbit-415774_960_720.jpg"
+  }
 ]
