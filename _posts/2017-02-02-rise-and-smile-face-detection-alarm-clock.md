@@ -5,7 +5,7 @@ thumbnail: /images/posts/thumbs/rise-and-smile.gif
 categories: android, face-detection
 ---
 
-> **Role:** Prototyper/Mobile Application Developer <br /> **Tools and Libraries:** Android Studio, Google Play Services (for face detection) <br/> **GUI Programming Concepts:** Input devices, event handling, model-view-presenter for Android
+> **Role:** Prototyper/Mobile Application Developer <br /> **Tools and Libraries:** Android Studio, Google Play Services (for face detection) <br/> **GUI Programming Concepts:** Input devices, input events, finite state machine, model-view-presenter for Android
 <br /> <br/> This was a final requirement for Software Structures for User Interfaces, a core subject I took when I was completing my Master’s degree in Human-Computer Interaction from Carnegie Mellon University. Parts of the code from the googly-eyes sample were used in this project.
 
 {% include jquery.html %}
