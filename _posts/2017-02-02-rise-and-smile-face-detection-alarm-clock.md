@@ -15,8 +15,6 @@ categories: android, face-detection
 
 ## Introduction
 
-<br />
-
 <div class="row">
 
   <div class="small-12 medium-4 post-inline-image-container">
@@ -37,7 +35,17 @@ categories: android, face-detection
 
 ## Motivation
 
-I've always wanted to try out face detection, so for the final project on one of my classes I decided I would do just that. I'm also the type of person who struggles with waking up in the morning, so I thought why not make an alarm clock that uses face detection? I have this tendency of silencing my alarm clock in a matter of seconds then falling directly back to sleep. If I wanted to actually get out of bed, I needed find a way to keep myself awake longer. And what better way for you to wake yourself up than to actually open your eyes.
+<div class="row">
+
+  <div class="small-12 medium-4 post-inline-image-container">
+
+    <img class="post-image-large" src="/images/posts/main/rise-and-smile/alarms.png"/>
+
+  </div>
+
+  <p class="columns">I've always wanted to try out face detection, so for the final project on one of my classes I decided I would do just that. I'm also the type of person who struggles with waking up in the morning. I have this tendency of silencing my alarm clock in a matter of seconds then falling directly back to sleep. So I thought why not make an alarm clock that uses face detection? If I wanted to actually get out of bed, I needed find a way to keep myself awake longer. And what better way for you to wake yourself up than to actually open your eyes for a long time.</p>
+
+</div>
 
 <br/>
 
@@ -47,13 +55,27 @@ I've always wanted to try out face detection, so for the final project on one of
 
 ## Implementation
 
-The point of the project was for us to apply the concepts that we learned from our lectures. I applied 3 main lecture concepts: **Interaction Techniques, Input Events, and Finite State Machines.**
+The point of the project was for us to apply the concepts that we learned from our lectures. I applied 3 main lecture concepts: **Interaction Techniques, Finite State Machines, and Input Events.**
 
 <br/>
 
 ### Interaction Techniques
 
-Interaction techniques are software-level tricks that GUI designers use to take a new spin on an existing input device. An example of this would be how the Swype keyboard enhances touchscreen text input with it's gesture typing – it's using the same touchscreen but it can be significantly faster to type on. In my case, I used face detecion as my interaction technique and the front facing camera as my input device. By tracking the user's eye, I can determine if he is falling back to sleep or not and can react accordingly. Eyes open = lowered volume and shorter time needed to keep eyes open. Eyes closed = opposite.
+Interaction techniques are software-level tricks that GUI designers use to take a new spin on an existing input device. An example of this would be how the Swype keyboard enhances touchscreen text input with it's gesture typing – it's using the same touchscreen but it can be significantly faster to type on.
+
+In my case, I used face detecion as my interaction technique and the front facing camera as my input device. By tracking the user's eye, I can determine if he is falling back to sleep or not and can react accordingly. If his eyes are open, that means he's awake so I lower the volume and start the countdown timer. If his eyes are closed or if his face is missing, I reset the volume and timer back to 100%.
+
+<br />
+
+### Finite State Machine
+
+My interaction technique involved handling 3 states: open eyes, closed eyes, and face missing. Like any UI component, it's best to create a finite state machine to make it easier to handle input. Mine ended up looking like this:
+
+<br />
+
+<img style="background-color: #ffffff" class="post-image-large center materialboxed responsive-img" src="/images/posts/main/rise-and-smile/fsm.png"/>
+
+I used this finite state machine to determine when to send out input events, that is, whenever there is a state transition.
 
 <br />
 
@@ -61,14 +83,6 @@ Interaction techniques are software-level tricks that GUI designers use to take 
 
 Input events are a type of abstraction provided by toolkits that make life easier for application developers. Instead of dealing with low-level logic like using time outs for distinguishing between two successive single clicks and a double click, or fiddling with start and end coordinates together with finger veolcity to determine if a touch gesture was a fling or a drag, the toolkit handles all of that and just tells the application developers what happened.
 
-<br />
 
-### Finite State Machine
-
-There are two ways that input devices collect input: **event-based**, where the input device reads input only when the user explicitly makes one (like a button press) and **sampling**, where input is continuously read (like how a smartphone's luminosity sensor that handles auto brightness). Event-based input devices are easier to program with since you just wait for an input event, but for sampled input devices you continuously receive input so you have to filter out information so you get only the ones that you are intersted in.
-
-<br />
-
-<img style="background-color: #ffffff" class="post-image-large center materialboxed responsive-img" src="/images/posts/main/rise-and-smile/fsm.png"/>
 
 <br />

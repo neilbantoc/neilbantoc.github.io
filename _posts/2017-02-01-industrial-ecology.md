@@ -15,7 +15,7 @@ categories: document-design, portfolio-piece
 
 ## Branding
 
-<img class="post-image-large materialboxed responsive-img" src="{{site.url}}/images/posts/main/industrial-ecology/building-branding.png"/>
+<img class="post-image-banner materialboxed responsive-img" src="{{site.url}}/images/posts/main/industrial-ecology/building-branding.png"/>
 
 To start off, I used the Dow logo as an inspiration for the overall design of the spread. The shapes created by cropping the diamond edges as well as the usage of the Dow logo's red color create a sense of familiarity with the brand.
 
@@ -23,7 +23,7 @@ To start off, I used the Dow logo as an inspiration for the overall design of th
 
 ## Layout & Consistency
 
-<img class="post-image-large materialboxed responsive-img" src="{{site.url}}/images/posts/main/industrial-ecology/being-consistent.png"/>
+<img class="post-image-banner materialboxed responsive-img" src="{{site.url}}/images/posts/main/industrial-ecology/being-consistent.png"/>
 
 I decided to group the layout into three main parts: title, body text, decorations. The title set the overall theme of the page. The decorations (which include callouts, images with captions, and background images) all give supplementary information and/or serve as a backdrop for the theme. The body text is, of course, where the meat of the document is.
 
@@ -33,7 +33,7 @@ The grid I chose to go with was pretty straightforward: title on the top-right, 
 
 ## Shaking Things Up
 
-<img class="post-image-large materialboxed responsive-img" src="{{site.url}}/images/posts/main/industrial-ecology/shaking-things-up.png"/>
+<img class="post-image-banner materialboxed responsive-img" src="{{site.url}}/images/posts/main/industrial-ecology/shaking-things-up.png"/>
 
 To add variety and break the monotony of the uniform design, I had one of the pages break the body text using an image.
 
@@ -43,6 +43,6 @@ To add variety and break the monotony of the uniform design, I had one of the pa
 
 Well, here's the final product. I don't have much to say about it, really. Click on the image below to see the whole thing.
 
-<br/> <a href="{{site.url}}/assets/industrial-ecology/industrial-ecology.pdf"><img class="post-image-large" src="{{site.ur.}}/images/posts/main/industrial-ecology/cover.png"/></a>
+<br/> <a href="{{site.url}}/assets/industrial-ecology/industrial-ecology.pdf"><img class="post-image-banner" src="{{site.ur.}}/images/posts/main/industrial-ecology/cover.png"/></a>
 
 <p class="post-image-caption">Click on the image to view full pdf document</p>

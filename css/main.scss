@@ -2,7 +2,8 @@
 ---
 @import "starving-artist";
 
-$image-width-large: 100%;
+$image-width-banner: 100%;
+$image-width-large: 640px;
 $image-width-medium: 480px;
 $image-width-small: 320px;
 $image-width-thumbnail: 240px;
@@ -90,7 +91,7 @@ h3 {
 }
 
 p {
-	font-size: 1.25em;
+	font-size: 1.4em;
 }
 
 strong {
@@ -99,7 +100,7 @@ strong {
 }
 
 blockquote p {
-	font-size: 1.25em;
+	font-size: 1.4em;
 }
 
 
@@ -156,6 +157,11 @@ blockquote p {
 
 .post-image-large {
 	width: $image-width-large;
+	height: auto;
+}
+
+.post-image-banner {
+	width: $image-width-banner;
 	height: auto;
 }
 

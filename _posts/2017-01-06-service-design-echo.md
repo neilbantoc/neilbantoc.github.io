@@ -179,7 +179,7 @@ Peer feedback involves having the audience answer a short and simple survey that
 Expert feedback would also be an option for students who are still not satisfied with receiving the first two forms of feedback.
 
 <div class="wraptainer post-image-horizontal">
-	<img class="center materialboxed post-image-large responsive-img" src="{{site.url}}{{site.assets-folder}}echo/touchpoints.png" alt="Service Touchpoints">
+	<img class="center materialboxed post-image-banner responsive-img" src="{{site.url}}{{site.assets-folder}}echo/touchpoints.png" alt="Service Touchpoints">
 </div> <br />
 
 To address the problem of time and incentive, we decided to introduce two touch points for our service: a VR practice room who’s primary purpose is to serve as an on-demand venue for receiving  automated feedback and an in-class component meant to be used by professors as a supplement for their existing course presentations.
