@@ -55,15 +55,35 @@ categories: android, face-detection
 
 ## Implementation
 
-The point of the project was for us to apply the concepts that we learned from our lectures. I applied 3 main lecture concepts: **Interaction Techniques, Finite State Machines, and Input Events.**
+The point of the project was for us to apply the concepts that we learned from our lectures. I applied 3 main lecture concepts: **Interaction Techniques, Input Events and Finite State Machines.**
 
 <br/>
 
 ### Interaction Techniques
 
-Interaction techniques are software-level tricks that GUI designers use to take a new spin on an existing input device. An example of this would be how the Swype keyboard enhances touchscreen text input with it's gesture typing – it's using the same touchscreen but it can be significantly faster to type on.
+<div class="row">
 
-In my case, I used face detecion as my interaction technique and the front facing camera as my input device. By tracking the user's eye, I can determine if he is falling back to sleep or not and can react accordingly. If his eyes are open, that means he's awake so I lower the volume and start the countdown timer. If his eyes are closed or if his face is missing, I reset the volume and timer back to 100%.
+  <div class="small-12 medium-4 post-inline-image-container">
+
+    <img class="post-image-banner" src="http://beebom.redkapmedia.netdna-cdn.com/wp-content/uploads/2015/12/iOS-Keyboards-bb-Swype.jpg"/>
+
+  </div>
+
+  <p class="columns">Interaction techniques are software-level tricks that GUI designers use to take a new spin on an existing input device. An example of this would be how the Swype keyboard enhances touchscreen text input with it's gesture typing – it's using the same touchscreen but it can be significantly faster to type on.
+  <br /> <br />
+  In my case, I used face detection as my interaction technique and the front facing camera as my input device. By tracking the user's eye, I can determine if he is falling back to sleep or not and can react accordingly. If his eyes are open, that means he's awake so I lower the volume and start the countdown timer. If his eyes are closed or if his face is missing, I reset the volume and timer back to 100%. </p>
+
+</div>
+
+<br />
+
+### Input Events
+
+<img style="background-color: #ffffff" class="post-image-large center materialboxed responsive-img" src="/images/posts/main/rise-and-smile/gestures.png"/>
+
+Input events are a type of abstraction provided by toolkits that make life easier for application developers. You see for button-type events like mouse clicks, it's fairly easy to determine if the user made a right click or a left click. There are however more complicated input devices that may generate noisy data, hard to analyze data, or both. Touchscreen gestures are a great example of this: think about it, what distinguishes a tap and drag from a fling/flick event? Velocity. A tap and drag has low velocity while the opposite is true for fling events. You'd have to take in x and y coordinates together with deltas (change over time) to determine that.
+
+For my case, the camera was feeding me continuous frames of faces, each with a probability of whether or not the eyes are closed or not. Using a finite state machine, I was able to abstract these into three simple input events: EYE_OPEN, EYE_CLOSED and FACE_MISSING.
 
 <br />
 
@@ -79,10 +99,44 @@ I used this finite state machine to determine when to send out input events, tha
 
 <br />
 
-### Input Events
-
-Input events are a type of abstraction provided by toolkits that make life easier for application developers. Instead of dealing with low-level logic like using time outs for distinguishing between two successive single clicks and a double click, or fiddling with start and end coordinates together with finger veolcity to determine if a touch gesture was a fling or a drag, the toolkit handles all of that and just tells the application developers what happened.
-
-
+---
 
 <br />
+
+### Initial Prototype and Nielsen's Heuristics
+
+<div class="row">
+
+  <div class="small-12 medium-4 post-inline-image-container">
+
+    <img style="background-color: #ffffff" class="post-image-large center materialboxed responsive-img" src="/images/posts/main/rise-and-smile/prototype.png"/>
+
+  </div>
+
+  <p class="columns">The initial prototype I made had two circular rings that represent volume and the awake countdown. I was hoping that this setup was intuitive enough for my testers since I thought having the rings react to blinking was enough <a href="http://www.mattsoave.com/old/cogs187a/iu_site_eval/1visibility.html">feedback for them to determine what's happening.</a> Apparently, it wasn't. They get the feedback, but they <a href="http://www.mattsoave.com/old/cogs187a/iu_site_eval/2systemreal.html">don't know what that feedback meant.</a> So I had to think of a way to convey to the user that one ring represents the volume level and the other is tracking whether or not their eyes were open.</p>
+
+</div>
+
+<br/>
+
+### Final Prototype and Future Improvements
+
+<div class="row">
+
+  <div class="small-12 medium-4 post-inline-image-container">
+
+    <img style="background-color: #ffffff" class="post-image-large center materialboxed responsive-img" src="/images/posts/main/rise-and-smile/final-prototype.gif"/>
+
+  </div>
+
+  <p class="columns">The final prototype wasn't a huge departure from the original idea. I incorporated the feedback from the initial prototype and added icons to better indicate what the progress circles meant and also added a help button as a fallback in case users are completely clueless.
+  <br/>
+  <br/>
+  Future improvements to the app include:<br/>
+  Capturing frames and uploading to social media<br/>
+  Changing alarm tones<br/>
+  Repeating alarms<br/>
+  Setting alarms upon booting<br/>
+  </p>
+
+</div>
