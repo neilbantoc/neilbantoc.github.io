@@ -19,7 +19,7 @@ categories: android, face-detection
 
   <div class="small-12 medium-4 post-inline-image-container">
 
-    <img class="post-image-large" src="https://s-media-cache-ak0.pinimg.com/originals/79/47/92/794792962fa36bd1534e244dd750500c.jpg"/>
+    <img class="post-image-large" src="/images/posts/main/rise-and-smile/rise-and-smile.gif"/>
 
   </div>
 

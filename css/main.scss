@@ -80,18 +80,19 @@ $quote-backdrop-opacity-percent: 80;
 		margin-bottom: 0px;
 }
 
-$body-font-family: "tk-proxima-nova" "Source Sans Pro", "Source Sans Pro", Helvetica, Roboto, Arial;
+$body-font-family: "Source Sans Pro", Helvetica, Roboto, Arial;
 $header-font-family: "Signika", "Helvetica Neue", Helvetica, Roboto, Arial;
 
 // HTML OVERRIDES
 
 body {
 	font-family: $body-font-family;
+	font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $header-font-family;
-	font-weight: bold;
+	font-weight: 400;
 }
 
 h1 {
@@ -111,7 +112,7 @@ p {
 }
 
 strong {
-	font-family: $header-font-family;
+	font-family: $body-font-family;
 	font-weight: 700;
 }
 
