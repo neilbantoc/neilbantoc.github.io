@@ -19,7 +19,7 @@ categories: android, face-detection
 
   <div class="small-12 medium-4 post-inline-image-container">
 
-    <img class="post-image-large" src="/images/posts/main/rise-and-smile/rise-and-smile.gif"/>
+    <img class="post-image-large" src="https://s-media-cache-ak0.pinimg.com/originals/79/47/92/794792962fa36bd1534e244dd750500c.jpg"/>
 
   </div>
 
@@ -123,20 +123,21 @@ I used this finite state machine to determine when to send out input events, tha
 
 <div class="row">
 
-  <div class="small-12 medium-4 post-inline-image-container">
+  <div class="small-12 video-container">
 
-    <img style="background-color: #ffffff" class="post-image-large center materialboxed responsive-img" src="/images/posts/main/rise-and-smile/final-prototype.gif"/>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EJEMnHAsoSc" frameborder="0" allowfullscreen></iframe>
 
   </div>
 
-  <p class="columns">The final prototype wasn't a huge departure from the original idea. I incorporated the feedback from the initial prototype and added icons to better indicate what the progress circles meant and also added a help button as a fallback in case users are completely clueless.
+  <div class="columns"> <br/> <p>The final prototype wasn't a huge departure from the original design. I incorporated the feedback from the initial prototype and added icons to better indicate what the progress circles meant and also added a help button as a fallback in case users are completely clueless. </p>
   <br/>
-  <br/>
-  Future improvements to the app include:<br/>
-  Capturing frames and uploading to social media<br/>
-  Changing alarm tones<br/>
-  Repeating alarms<br/>
-  Setting alarms upon booting<br/>
-  </p>
+  <p>Some of the future improvements I'm considering to add are:</p>
+  <ul style="list-style: none;">
+    <li><p>Capturing frames and uploading to social media</p></li>
+    <li><p>Changing alarm tones</p></li>
+    <li><p>Repeating alarms</p></li>
+    <li><p>Setting alarms upon booting</p></li>
+  </ul>
+  </div>
 
 </div>
