@@ -16,6 +16,9 @@ $hyperlink-color-visited: #72A1E5;
 	width: 100%;
 	background-position: center center;
 	background-size: cover;
+	transition: background .1s ease-in-out;
+ 	-moz-transition: background .1s ease-in-out;
+ 	-webkit-transition: background .1s ease-in-out;
 }
 
 $quote-backdrop-opacity: .80;
