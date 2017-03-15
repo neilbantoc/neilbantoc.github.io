@@ -83,7 +83,7 @@ $quote-backdrop-opacity-percent: 80;
 		margin-bottom: 0px;
 }
 
-$body-font-family: "Source Sans Pro", Helvetica, Roboto, Arial;
+$body-font-family: "Sintony", "Source Sans Pro", Helvetica, Roboto, Arial;
 $header-font-family: "Signika", "Helvetica Neue", Helvetica, Roboto, Arial;
 
 // HTML OVERRIDES
@@ -99,15 +99,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 3em;
-}
-
-h2 {
 	font-size: 2.5em;
 }
 
+h2 {
+	font-size: 2.25em;
+}
+
 h3 {
-	font-size: 2em;
+	font-size: 1.7em;
 }
 
 p {
@@ -115,12 +115,19 @@ p {
 }
 
 strong {
-	font-family: $body-font-family;
+	font-family: $header-font-family;
 	font-weight: 700;
 }
 
 blockquote p {
-	font-size: 1.2em;
+	font-size: 1em;
+}
+
+.post-quote-large {
+	padding-left: 2em;
+	padding-right: 2em;
+	font-family: "Source Code Pro";
+	font-size: 1.5em;
 }
 
 
@@ -139,7 +146,7 @@ blockquote p {
 // }
 
 .post-title {
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 .roll article p{
