@@ -123,13 +123,13 @@ I used this finite state machine to determine when to send out input events, tha
 
 <div class="row">
 
-  <div class="small-12 video-container">
+  <div class="center small-12 video-container">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/EJEMnHAsoSc" frameborder="0" allowfullscreen></iframe>
 
   </div>
 
-  <div class="columns"> <br/> <p>The final prototype wasn't a huge departure from the original design. I incorporated the feedback from the initial prototype and added icons to better indicate what the progress circles meant and also added a help button as a fallback in case users are completely clueless. </p>
+  <div class="small-12 columns"> <br/> <p>The final prototype wasn't a huge departure from the original design. I incorporated the feedback from the initial prototype and added icons to better indicate what the progress circles meant and also added a help button as a fallback in case users are completely clueless. </p>
   <br/>
   <p>Some of the future improvements I'm considering to add are:</p>
   <ul style="list-style: none;">
