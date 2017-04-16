@@ -3,7 +3,7 @@ layout: inspiration
 title: inspiration
 permalink: "/inspiration/"
 ---
-<link href="{{ site.url }}/css/inspiration.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+<link href="/css/inspiration.css" media="screen, projection" rel="stylesheet" type="text/css"/>
 
 <div id="quote-container">
   <div id="quote-backdrop">
@@ -49,5 +49,5 @@ permalink: "/inspiration/"
     changeQuote();
   };
 
-  var jsonData = $.getJSON("{{$site.url}}/json/inspiration.json", quotesLoaded);
+  var jsonData = $.getJSON("/json/inspiration.json", quotesLoaded);
 </script>
