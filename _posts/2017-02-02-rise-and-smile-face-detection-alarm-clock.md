@@ -33,7 +33,7 @@ categories: android, face-detection
 
 <br/>
 
-## Motivation
+## Problem Space
 
 <div class="row">
 
@@ -43,7 +43,16 @@ categories: android, face-detection
 
   </div>
 
-  <p class="columns">I've always wanted to try out face detection, so for the final project on one of my classes I decided I would do just that. I'm also the type of person who struggles with waking up in the morning. I have this tendency of silencing my alarm clock in a matter of seconds then falling directly back to sleep. So I thought why not make an alarm clock that uses face detection? If I wanted to actually get out of bed, I needed find a way to keep myself awake longer. And what better way for you to wake yourself up than to actually open your eyes for a long time.</p>
+  <p class="columns">I'm the type of person who struggles with waking up in the morning. I have this tendency of silencing my alarm clock in a matter of seconds then falling back to sleep immediately. If I wanted to actually get out of bed, I needed find a way to keep myself awake longer. And that's when it hit me.
+  <br/><br/>
+  <strong>What's a sure way of keeping me awake?</strong>
+  <br/>Opening my eyes.
+  <br/><br/>
+  <strong>What's a good way of keeping my eyes open?</strong>
+  <br/>Requiring me to open my eyes in order to turn off the alarm clock.
+  <br/><br/>
+  <strong>How can I do that?</strong>
+  <br/>Face detection.</p>
 
 </div>
 
@@ -103,7 +112,7 @@ I used this finite state machine to determine when to send out input events, tha
 
 <br />
 
-### Initial Prototype and Nielsen's Heuristics
+## Initial Prototype and Nielsen's Heuristics
 
 <div class="row">
 
@@ -119,7 +128,7 @@ I used this finite state machine to determine when to send out input events, tha
 
 <br/>
 
-### Final Prototype and Future Improvements
+## Final Prototype and Future Improvements
 
 <div class="row">
 
