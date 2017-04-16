@@ -43,6 +43,6 @@ To add variety and break the monotony of the uniform design, I had one of the pa
 
 Well, here's the final product. I don't have much to say about it, really. Click on the image below to see the whole thing.
 
-<br/> <a href="{{site.url}}/assets/industrial-ecology/industrial-ecology.pdf"><img class="post-image-banner" src="{{site.ur.}}/images/posts/main/industrial-ecology/cover.png"/></a>
+<br/> <a href="{{site.url}}/assets/industrial-ecology/industrial-ecology.pdf"><img class="post-image-banner" src="{{site.url}}/images/posts/main/industrial-ecology/cover.png"/></a>
 
 <p class="post-image-caption">Click on the image to view full pdf document</p>
