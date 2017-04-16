@@ -634,9 +634,11 @@
             .filter(function(d, i) {
               return i * 2 == x;
             })
+            .attr('r', 26)
             .transition()
             .duration(1000)
-            .attr('fill-opacity', 1.0);
+            .attr('fill-opacity', 1.0)
+            .attr('r', 8);
       }
     });
 

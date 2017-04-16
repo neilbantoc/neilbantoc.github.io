@@ -354,5 +354,5 @@ function updateTempReading(transition, duration, reading) {
   updateTemp = transition ? tempReading.transition().duration(duration).ease(d3.easeLinear) : tempReading;
   updateTemp.attr('transform', 'translate(' + x + ', ' + y+')');
 
-  tempReadingText.text(truncate(reading) + "°");
+  tempReadingText.text(truncate(reading) + "°C");
 }
