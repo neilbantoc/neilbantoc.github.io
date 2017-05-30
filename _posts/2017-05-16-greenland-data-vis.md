@@ -63,7 +63,7 @@ As a project for my Interaction Design Studio 2 class, we were asked to create a
   <div class="small-12 medium-8 columns">
     <p class="columns">For this specific project we needed to create a dashboard that will display climate change and biodiversity information for Greenland. This information will be used by policy makers to make informed decisions on policies that may directly or indirectly affect the environment.
 
-    <br/>
+    <br/> <br/>
 
     The challenges we had to face for this project were:
     </p>
@@ -239,7 +239,7 @@ The idea was simple. We had temperature as our main metric. Since it directly af
 
 ## Implementation
 
-> **Highlight** I flexed my web development skills by creating a website with live animations instead of a video to showcase what our dashboard would look like.
+> **Highlight** I flexed my web development skills by creating a website with javascript driven animations instead of a video to showcase what our dashboard would look like.
 
 <img class="post-image-large center materialboxed responsive-img" src="/images/posts/main/greenland/d3.png"/>
 
@@ -295,7 +295,7 @@ Of course since not all of my teammates are learning d3, we decided to use sketc
   <div class="small-12 medium-8 columns">
     <p class="columns">Pulling from multiple examples online, I was able to recreate a similar looking graph in d3 but modified to accommodate a few project requirements we had to incorporate into our dashboard:
 
-    <br/><br/>
+    <br/>
     </p>
 
     <ul>
