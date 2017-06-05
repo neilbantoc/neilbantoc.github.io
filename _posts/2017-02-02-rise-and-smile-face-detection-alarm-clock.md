@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rise and Smile: Face Detection Powered Alarm Clock"
+title:  "Mobile App: Face Detection Powered Alarm Clock"
 thumbnail: /images/posts/thumbs/rise-and-smile.gif
 categories: android, face-detection
 ---

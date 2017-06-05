@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div class="small-12 columns wraptainer">
+<div class="small-12 columns wraptainer row">
 {% for post in site.posts %}
-<div class="roll page-content">
+<div class="roll page-content small-12 medium-4">
         <header>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h2>
@@ -12,23 +12,20 @@ layout: default
         </header>
         <div class="row">
         {% if post.thumbnail %}
-            <div class="small-12 medium-3">
+            <div class="small-12">
                 <a href="{{ site.url }}{{ post.url }}">
-                    <figure class="post-thumb">
-                        <img src="{{ site.github.url }}/{{ post.thumbnail }}" class="small-12"/>
+                    <figure class="post-thumb center">
+                        <img src="{{ site.github.url }}/{{ post.thumbnail }}" class="center materialboxed post-image-large responsive-img"/>
                     </figure>
                 </a>
 
                 <div class="hide-on-medium" width="1em" height="1em"> </div>
             </div>
 
-            <div class="small-12 medium-9">
+            <div class="small-12">
         {% else %}
             <div>
         {% endif %}
-                <article>
-                    <p>{{ post.excerpt }}  <a href="{{ site.github.url }}/{{ post.url }}">Read More</a></p>
-                </article>
             </div>
       </div>
 </div>

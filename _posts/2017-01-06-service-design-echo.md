@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Echo: A Service for Perfecting Verbal Communication for Students at Carnegie Mellon University"
+title:  "Service Design: Verbal Communication and Presentation Practice Service"
 thumbnail: /images/posts/thumbs/echo.png
 categories: service-design, ux-research, ux, portfolio-piece
 ---

@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: blog
 title: portfolio
 permalink: "/portfolio/"
---- 
+---
