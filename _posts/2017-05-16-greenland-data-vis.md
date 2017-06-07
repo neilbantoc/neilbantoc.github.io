@@ -174,15 +174,23 @@ Our first attempt at a "visualization of data" was quite literal. We took the da
 
 ### Iteration 2: Good Old Bar Graphs and Maps
 
+<img class="post-image-large center materialboxed responsive-img" src="/images/posts/main/greenland/visualizations.jpg"/>
+
+<p class="post-image-caption center">Whiteboard brainstorming of visualizations for our metrics</p>
+
+<br/>
+
+<p>
+So we toned down on our icons and went a little more scientific by using traditional bar graphs and maps. We did a couple of iterative sketches on paper and had people take a look at it to see if they are getting what the graph is trying to portray. And sure enough, traditional graphs were both easy to interpret and more porfessional looking.
+</p>
+
+<br/>
+
 <img class="post-image-large center materialboxed responsive-img" src="/images/posts/main/greenland/gdp-graph-iterations.jpg"/>
 
 <p class="post-image-caption center">Iterations of the GDP and arable land graph.</p>
 
 <br/>
-
-<p>
-And scientific we went. We did a couple of iterative sketches on paper and had people take a look at it to see if they are getting what the graph is trying to portray. And sure enough, traditional graphs were easy to interpret.
-</p>
 
 <div class="row">
 
