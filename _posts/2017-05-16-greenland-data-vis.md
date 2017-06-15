@@ -6,7 +6,7 @@ categories: dashboard-design, front-end-web, d3, javascript, animation
 ---
 > **Team Size:** 3 people <br/>
 **Time Period:** 3 weeks <br/>
-**Role:** Data Visualizer, Designer, Front end developer <br/>
+**Role:** Data Visualizer, Dashboard Designer, Front-End Developer <br/>
 **Tools:** D3.js, Sketch, SVG <br/> <br/>
 As a project for my Interaction Design Studio 2 class, we were asked to create a dashboard that displays biodiversity information to make it easier for policy makers to make decisions. For this project, we chose to create a webpage that uses a combination of svg generated from the vector program Sketch for the static graphs and D3.js for animated graphs.
 
