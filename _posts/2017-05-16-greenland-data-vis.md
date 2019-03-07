@@ -199,7 +199,7 @@ So we toned down on our icons and went a little more scientific by using traditi
 	</div>
 
 	<div class="wraptainer post-image-horizontal small-6">
-		<img class="post-image-large center materialboxed responsive-img" src="/images/posts/main/greenland/shannon-crit.jpg"/>
+		<img class="post-image-large center materialboxed responsive-img" src="/images/posts/main/greenland/student-crit.jpg"/>
 	</div>
 
 </div>
